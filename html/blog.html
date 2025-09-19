@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BLOG</title>
+	<link rel="stylesheet" href="/css/stylesheet.css">
+	<link rel="icon" type="image/png" href="../logo-3.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Allura&family=Anonymous+Pro&family=Cormorant+Garamond:wght@400;600&family=Dancing+Script&family=Lato:wght@300;400&family=Noto+Serif+JP&family=Pacifico&family=Ysabeau+SC:wght@200;300;400;700&display=swap"
+		rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Poppins:wght@200;600&family=Yuji+Hentaigana+Akari&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@200;400;600;700&family=Yuji+Hentaigana+Akari&display=swap"
+		rel="stylesheet">
+	<style>
+		@media all and (min-width: 992px) {
+			.navbar .nav-item .dropdown-menu {
+				display: none;
+			}
+
+			.navbar .nav-item:hover .dropdown-menu {
+				display: block;
+			}
+
+			.navbar .nav-item .dropdown-menu {
+				margin-top: 0;
+			}
+		}
+
+		/* navbar search button */
+		@import url(https://fonts.googleapis.com/css?family=Cabin:400);
+
+		.webdesigntuts-workshop input {
+			background: #222;
+			background: linear-gradient(#333, #222);
+			border: 1px solid #444;
+			border-radius: 5px 0 0 5px;
+			box-shadow: 0 2px 0 #000;
+			color: #888;
+			display: block;
+			float: left;
+			font-family: 'Cabin', helvetica, arial, sans-serif;
+			font-size: 13px;
+			font-weight: 400;
+			height: 40px;
+			margin: 0;
+			padding: 0 10px;
+			text-shadow: 0 -1px 0 #000;
+			width: 200px;
+		}
+
+		.ie .webdesigntuts-workshop input {
+			line-height: 40px;
+		}
+
+		.webdesigntuts-workshop input::-webkit-input-placeholder {
+			color: #888;
+		}
+
+		.webdesigntuts-workshop input:-moz-placeholder {
+			color: #727171;
+		}
+
+		.webdesigntuts-workshop button {
+			background: #222;
+			background: linear-gradient(#333, #222);
+			box-sizing: border-box;
+			border: 1px solid #444;
+			border-left-color: #000;
+			border-radius: 0 5px 5px 0;
+			box-shadow: 0 2px 0 #000;
+			color: #fff;
+			display: block;
+			float: left;
+			font-family: 'Cabin', helvetica, arial, sans-serif;
+			font-size: 13px;
+			font-weight: 400;
+			height: 40px;
+			line-height: 40px;
+			margin: 0;
+			padding: 0;
+			position: relative;
+			text-shadow: 0 -1px 0 #000;
+			width: 80px;
+		}
+
+		div ul li a#green-hover:hover {
+			color: green;
+		}
+		#cntct:hover{
+			background-color: #000;
+			color: white;
+			transition: ease-in-out 0.3s;
+		}
+	</style>
+</head>
+
+
+<body>
+	<!-- Top -->
+	<div class="container-fluid" style="background-color: rgb(255, 255, 255);font-family: 'Lato', sans-serif;">
+		<div class="row p-1 text-center pt-3">
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<p>Whatever the occasion, we'll find a bouquet!!</p>
+			</div>
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<p><i class="fa-solid fa-phone text-dark link-danger"></i> Phones: <span>123-456-7890</span>;
+					<span>123-456-7891</span>
+				</p>
+			</div>
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<p><i style="cursor: pointer;" class="text-dark link-danger fa-brands fa-facebook-f"></i> &nbsp;&nbsp;
+					<i style="cursor: pointer;" class="text-dark link-danger fa-brands fa-twitter"></i> &nbsp;&nbsp; <i
+						style="cursor: pointer;" class="text-dark link-danger fa-brands fa-vimeo-v"></i> &nbsp;&nbsp; <i
+						style="cursor: pointer;" class="text-dark link-danger fa-brands fa-youtube"></i> &nbsp;&nbsp; <i
+						style="cursor: pointer;" class="text-dark link-danger fa-brands fa-pinterest"></i>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- NAVBAR -->
+	<div style="background-image: url(img/bgimg.png);z-index: 4;position: sticky;top: 0;">
+		<nav class="navbar navbar-expand-lg navbar-dark p-3" style="background-color: rgb(0, 0, 0);">
+			<div class="container-fluid">
+				<div class="col-lg-1 col-md-4  ps-3" style="width: 75px;">
+					<a href=""><img src="../logo-3.png" alt="" class="img-fluid"></a>
+				</div>
+				<div class="col-lg-1 col-md-4  col-sm-12">
+					<p><a href="../index.html" class="fs-3 text-decoration-none text-light"
+							style="font-family: 'Lato', sans-serif;">LIGHT</a></p>
+					<p class="text-danger" style="font-family: 'Lato', sans-serif;margin-top: -4vh;">FLOWER</p>
+				</div>
+				<button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+					data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse ms-3" id="main_nav" style="margin-top: -1vh;">
+					<ul class="navbar-nav ms-auto">
+						<!-- <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li> -->
+						<!-- <li class="nav-item"><a class="nav-link" href="#"> About </a></li> -->
+						<li class="nav-item"><a class="nav-link text-light link-danger" href="../index.html"
+								style="font-family: 'Lato', sans-serif;" id="green-hover"> HOME </a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link  dropdown-toggle text-light link-danger" href=""
+								data-bs-toggle="dropdown" style="font-family: 'Lato', sans-serif;"> ABOUT
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item text-dark link-danger" href="showcase.html"
+										style="font-family: 'Lato', sans-serif;">SHOWCASE</a></li>
+								<li><a class="dropdown-item text-dark link-danger" href="Services.html"
+										style="font-family: 'Lato', sans-serif;">SERVICES</a></li>
+								<li><a class="dropdown-item text-dark link-danger" href="blog.html"
+										style="font-family: 'Lato', sans-serif;">BLOG</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link text-light link-danger" href="Services.html"
+								style="font-family: 'Lato', sans-serif;" id="green-hover"> SERVICES </a></li>
+						<li class="nav-item"><a class="nav-link text-light link-danger" href="showcase.html"
+								style="font-family: 'Lato', sans-serif;" id="green-hover"> SHOWCASE </a></li>
+						<li class="nav-item"><a class="nav-link text-light link-danger" href="blog.html"
+								style="font-family: 'Lato', sans-serif;" id="green-hover"> BLOG </a></li>
+						<li class="nav-item"><a class="nav-link text-light link-danger" href="contact.html"
+								style="font-family: 'Lato', sans-serif;" id="green-hover"> CONTACTS </a></li>
+
+					</ul>
+				</div>
+		</nav>
+	</div>
+	</div>
+    <!-- First Portion -->
+    <div style="width: 50vw;border-bottom: 5px solid rgba(203, 129, 129, 0.718);margin-left: 25vw;"></div>
+    <div class="text-center" style="font-family: 'Playfair Display', serif;font-weight: 700;font-size: 28px;
+      line-height: 1.3;letter-spacing: 2px;font-style: normal;">
+        <h1>Recent Blog Entries</h1>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 pt-3 pb-5">
+                <img src="../img/mom and daughter of European appearance plant beau.jpg" alt="" class="img-fluid">
+                <h2 class="pt-3" style="font-family: 'Lato', sans-serif;font-weight: 700;">Why Are Orchids So Diverse?
+                </h2>
+                <p
+                    style="color: rgba(203, 129, 129, 0.806);font-family: 'Playfair Display', serif;font-weight: 700;font-size: 20px;">
+                    <i class="fa-solid fa-calendar-days"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25.10.23
+                </p>
+                <h5>As far as we know, Americans can be very picky about the flowers they buy. But one type of flower
+                    always remains on the top of the list...</h5>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 pt-3 pb-5">
+                <img src="../img/mom and daughter of European appearance plant beau (1).jpg" alt="" class="img-fluid">
+                <h2 class="pt-3" style="font-family: 'Lato', sans-serif;font-weight: 700;">Most Popular Types of
+                    Bouquets</h2>
+                <p
+                    style="color: rgba(203, 129, 129, 0.806);font-family: 'Playfair Display', serif;font-weight: 700;font-size: 20px;">
+                    <i class="fa-solid fa-calendar-days"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25.10.23
+                </p>
+                <h5>When it comes to presenting people with flowers, it allows looks the most neat and works out the
+                    best way when they're arranged into a bouquet. When you...</h5>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="container-fluid" style="background-color: #333333;">
+        <div class="row">
+            <div class="text-center pt-5 pb-5" style="color: #a4a499;">
+                <p>Address: Sri Ganganagar 335001 , Rajasthan</p>
+                <p>Phones: 123-456-7890; 123-456-7891</p>
+                <p>E-mail: <a href="" class="text-decoration-none link-light text-danger">lightflower@gmail.com</a>
+                </p>
+                <p>We are open: Mn-Fr: 10 am-8 pm</p>
+                <p class="fs-4 pt-2 pb-2"><i style="cursor: pointer;" class="text-dark link-light fa-brands fa-facebook-f"></i> &nbsp;&nbsp;
+                    <i style="cursor: pointer;" class="text-dark link-light fa-brands fa-twitter"></i> &nbsp;&nbsp; <i
+                        style="cursor: pointer;" class="text-dark link-light fa-brands fa-vimeo-v"></i> &nbsp;&nbsp; <i
+                        style="cursor: pointer;" class="text-dark link-light fa-brands fa-youtube"></i> &nbsp;&nbsp; <i
+                        style="cursor: pointer;" class="text-dark link-light fa-brands fa-pinterest"></i>
+                </p>
+                <p>Copyright © 2023 All rights reserved. <a href=""
+                        class="text-decoration-none link-light text-danger">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
